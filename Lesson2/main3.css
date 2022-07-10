@@ -1,0 +1,40 @@
+.card {
+    width: 400px;
+    height: 120px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+}
+h3{
+    color: #fa9a0b;
+}
+.image{
+    font-size: 50px;
+    margin: 35px;
+    color: #888888;
+
+}
+.box{
+    width: 400px;
+    height: 390px;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+.mother{
+    width: 815px;
+    height: 390px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    }
+.father{
+    width: 895px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: #11c2dc;
+    margin: auto;
+}

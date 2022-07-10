@@ -1,0 +1,52 @@
+.widgets{
+    width: 600px;
+    height: 200px;
+    background: #d68ffa;
+    box-sizing: border-box;
+    padding-top: 22px;
+}
+.widgets> p{
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+}
+.pcs{
+    width: 600px;
+    height: 210px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bbh{
+    width: 180px;
+    height: 170px;
+    background: #c16cf8;
+    box-sizing: border-box;
+    padding-top: 40px;
+
+}
+.bbh> p{
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+}
+.contact{
+    width: 600px;
+    height: 300px;
+    background: #ab1df8;
+    box-sizing: border-box;
+    padding-top: 60px;
+}
+.contact> p{
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+}
+.container{
+    width: 600px;
+    height: 700px;
+    box-sizing: border-box;
+    margin: auto;
+   justify-content: space-evenly;
+}
