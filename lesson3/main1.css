@@ -1,0 +1,54 @@
+.box{
+    width: 300px;
+    height: 350px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    align-content: center;
+    position: relative;
+
+}
+.box > h2{
+    text-align: center;
+    padding-top: 70px;
+
+}
+
+.box > p{
+    padding-top: 20px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #888888;
+}
+
+button{
+    width: 190px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    margin-right: 55px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+.father{
+    margin: auto;
+    height: 600px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.round{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -35px;
+    left: 115px;
+    background: white;
+    color: #f3b172;
