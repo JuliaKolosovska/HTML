@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+   }
+.a{
+    width: 100vw;
+    height: 33.3vh;
+    background: #ef8787;
+    
+}
+.bcdef{
+    width: 100vw;
+    height: 66.6vh;
+    display: flex;
+    column-gap: 10px;
+
+}
+.bcde{
+    width: 75vw;
+    height: 66.6vh;
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 10px;
+}
+.f{
+    width: 25vw;
+    height: 66.6vh;
+    background: #d9b8b8;
+}
+.b{
+    width: 75vw;
+    height: 33.3vh;
+    background: #b8d9c7;
+        }
+.cde{
+    width: 75vw;
+    height: 33.3vh;
+    display: flex;
+    column-gap: 10px;
+}
+
+.small{
+    width: 25vw;
+    height: 33.3vh;
+    background: #7defc3;
+}
+.round{
+    border-radius: 20px;
+}
+@media screen and (max-width: 800px){
+    .a{
+        height: 20vh;
+    }
+    .bcdef{
+        flex-direction: column;
+        width: 100vw;
+        height: 80vh;
+        row-gap: 10px;
+    }
+    .bcde{
+        flex-direction: column;
+        width: 100vw;
+        height: 60vh;
+
+    }
+    .b{
+        width: 100vw;
+        height: 40vh
+
+    }
+    .cde{
+        width: 100vw;
+        height: 20vh
+
+    }
+    .small{
+        width: 33.3vw;
+        height: 20vh
+    }
+    .f{
+        width: 100vw;
+        height: 20vh;
+    }
+
+}

@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+}
+.dostawa{
+    height: 40px;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.odbior{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 20px;
+}
+p{margin-left: 10px
+}
+.menu{
+    margin-top: 20px;
+    width: 150px;
+    height: 70px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 100px;
+}
+.father{
+    display: flex;
+
+}
+.header{
+    margin-top: 20px;
+    width: 80vw;
+    height: 70px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    padding-left: 30px;
+}
+.serch{
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 30px;
+    background: #f3f3f3;
+    border-radius: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.left>p{color: #bbbaba
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.logowanie{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    font-size: 20px;
+    margin-left: 30px
+}
+.basket{
+    font-size: 20px;
+    margin-left: 30px;
+    width: 80px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.content{
+    width: 100vw;
+    padding-left: 180px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+.upper{
+    width: 1480px;
+    height: 40px;
+    display: flex;
+    box-sizing: border-box;
+    border-bottom: 1px solid #c0bebe;
+    justify-content: space-between;
+}
+.produkty>p1{
+    margin: 15px;
+}
+.produkty{
+    width:1000px;
+    display: flex;
+}
+.kodpocztowy{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    }
+.small{
+    margin-left: 15px;
+}
+.dolny{
+    color: #969696;
+}
+.opis{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.opis>p{
+    color: #888888;
+    margin-left: 0;
+}
+.liczba{
+    width: 1480px;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.elementy{
+    color: #888888;
+}
+.produkt{
+    width: 70px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.pokoj{
+    width: 70px;
+    height: 30px;
+    border: 1px solid #b6b3b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sortowanie{
+    width: 1480px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.filtry{
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+
+}
+.filter{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    background: #ececec;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.filter>p{margin-right: 10px}
+.porownaj{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: larger;
+    color: #888888;
+
+}
+.porownaj>p{
+    margin-right: 10px;
+}

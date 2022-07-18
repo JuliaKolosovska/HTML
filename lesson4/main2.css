@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+   }
+.a{
+    width: 100vw;
+    height: 30vh;
+    background: silver;
+   }
+.b{
+    width: 70vw;
+    height: 70vh;
+    background: lightblue;
+
+}
+.c{
+    width: 30vw;
+    height: 70vh;
+    background: darkseagreen;
+
+}
+.wrap{
+    display: flex;
+    column-gap: 10px;
+}
+.round{
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+
+}
+@media screen and (max-width: 800px){
+    .wrap{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .a{
+        height: 20vh;
+    }
+    .b{
+        width: 100vw;
+        height: 60vh;
+    }
+    .c{
+        width: 100vw;
+        height: 20vh;
+
+    }
+}
